@@ -218,9 +218,10 @@ python compile_results.py --ablation  # include ablation
 ## Citation
 
 ```bibtex
-@article{sammani2026uf2cbm,
-  title={CLIP-Free, Label-Free, Unsupervised Concept Bottleneck Models},
-  author={Sammani, Fawaz and others},
-  year={2026}
+@article{sammani2025clip,
+  title={CLIP-Free, Label-Free, Zero-Shot Concept Bottleneck Models},
+  author={Sammani, Fawaz and Fischer, Jonas and Deligiannis, Nikos},
+  journal={arXiv preprint arXiv:2503.10981},
+  year={2025}
 }
 ```

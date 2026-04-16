@@ -2,7 +2,7 @@
 
 ## CLIP-Free, Label-Free, Unsupervised Concept Bottleneck Models (U-F²-CBM)
 
-**Paper:** Sammani et al., 2026  
+**Paper:** Sammani et al., CVPR 2026 (Findings)  
 **Reproduction by:** Umut Özdemir  
 **Date:** April 2026  
 **Hardware:** 1× NVIDIA GPU

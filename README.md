@@ -1,6 +1,6 @@
 # CENG 502 — Reproduction of U-F²-CBM
 
-> **Paper:** *CLIP-Free, Label-Free, Unsupervised Concept Bottleneck Models* — Sammani et al., 2026  
+> **Paper:** *CLIP-Free, Label-Free, Unsupervised Concept Bottleneck Models* — Sammani et al., CVPR 2026 (Findings)  
 > **Course:** CENG 502, Middle East Technical University  
 > **Implementation from scratch** — no official code was used.
 

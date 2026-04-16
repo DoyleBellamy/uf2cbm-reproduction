@@ -1,0 +1,32 @@
+# U-F2-CBM default configuration
+
+backbone: resnet50          # resnet50 | resnet101 | vit_b_16
+num_classes: 1000           # ImageNet-1K
+
+# TextUnlock MLP
+mlp_out_dim: 384            # must match text encoder output dim
+mlp_dropout: 0.5
+
+# Text encoder
+text_encoder: all-MiniLM-L12-v1
+class_prompt_template: "an image of a {}"
+
+# Training
+batch_size: 256
+epochs: 30
+lr: 1.0e-4
+lr_min: 1.0e-6
+warmup_epochs: 1
+grad_clip: 1.0
+num_workers: 8
+
+# Paths (override via CLI)
+imagenet_train: /path/to/imagenet/train
+imagenet_val: /path/to/imagenet/validation
+cache_dir: ./cache
+checkpoint_dir: ./checkpoints
+concept_bank_dir: ./concept_bank
+
+# Concept bank
+concept_set_size: 20000
+top_k_concepts: 50          # concepts shown per image in visualisation
